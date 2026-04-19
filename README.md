@@ -38,29 +38,6 @@ A single-click override that instantly reroutes all users to the safest availabl
 - **Unit Tested**: Core routing algorithms are validated via automated Jest test suites.
 
 ---
-
-## 🚀 Deployment Guide
-
-### 1. GitHub Repository Setup
-1. Create a new repository on GitHub.
-2. Initialize and push your code:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: initial hackathon release"
-   git remote add origin YOUR_REPO_URL
-   git push -u origin main
-   ```
-3. **Protecting Secrets**: Go to **Settings > Secrets and variables > Actions** and add `GEMINI_API_KEY`.
-
-### 2. Google Cloud Run Deployment
-1. Install GCloud CLI.
-2. Build and deploy:
-   ```bash
-   gcloud run deploy smartcrowd-ai --source . --env-vars-file .env
-   ```
-   *Note: Ensure your `GEMINI_API_KEY` is set in the Cloud Run configuration panel.*
-
 ---
 
 ## 🛠️ Tech Stack
@@ -76,4 +53,4 @@ By redistributing 20% of peak crowd flow through autonomous routing, **SmartCrow
 
 ---
 
-Created with ❤️ for the Hackathon by [Your Name]
+Created with ❤️ for the Hackathon
